@@ -1,4 +1,7 @@
 /* navbar */
+.cont{
+width: 100%;
+}
 .textcol
 {
     color: white;
@@ -307,10 +310,7 @@ span {
 {
     background-color: black;
 }
-.gap
-{
-    padding-top: 10%;
-}
+
 .line{
     
   border-top: 1px solid gray;
