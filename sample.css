@@ -303,4 +303,42 @@ span {
     height: 100%;
   }
 
-
+.ending
+{
+    background-color: black;
+}
+.gap
+{
+    padding-top: 10%;
+}
+.line{
+    
+  border-top: 1px solid gray;
+}
+.endcontent
+{
+    text-align: start;
+}
+.topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:53.5%
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(14, 184, 155);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width:39%
+  } 
