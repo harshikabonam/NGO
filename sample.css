@@ -34,7 +34,6 @@ width: 100%;
     /* width: 85%; */
     /* border-radius: 10%; */
 }
-
 .leftcard
 {
     padding-left: 30px;
@@ -366,6 +365,7 @@ span {
 .cardbutton
 {
     padding-top: 38%;
+    padding-right: 0%;
 }
 .text{
     text-align: center;
@@ -602,5 +602,211 @@ span {
       {
           padding-left: 15%;
       }
+}
+@media only screen and  (min-device-width:426px) and (max-device-width:625px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    .navbutton
+    {
+      background-color: rgb(14, 184, 155);
+      /* height:100%; */
+      /* padding:10% 10% 10% 10%; */
+      align-content: center;
+      border: none;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+        .heading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .imagecard
+    {
+        /* padding-left: 10%; */
+    }
+    .leftcard
+    {
+        padding-left: 20%;
+    }
+    .card{
+        width: 80%;
+        /* padding-left: 10%; */
+        /* border-radius: 10%; */
+    }
+    .text{
+        text-align: center;
+        
+        font-size: 15px;
+    }
+      .rightnav
+      {
+        padding-right:16%;
+      }
+      nav.navbar {  
+        width: 70%;
+      }
+      .icon
+      {
+          padding-left: 5%;
+      }
+      
+}
+@media only screen and  (min-device-width:373px) and (max-device-width:425px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    .navbutton
+    {
+      background-color: rgb(14, 184, 155);
+      /* height:100%; */
+      /* padding:10% 10% 10% 10%; */
+      align-content: center;
+      border: none;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+        .heading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .card{
+        width: 90%;
+    }
+    .text{
+        text-align: center;
+        
+        font-size: 15px;
+    }
+      .rightnav
+      {
+        padding-right:16%;
+      }
+      nav.navbar {  
+        width: 70%;
+      }
+      .icon
+      {
+          padding-left: 5%;
+      }
+      .cardbutton
+  {
+      padding-left: 7%;
+  }
+}
+@media only screen and  (min-device-width:320px) and (max-device-width:372px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    .navbutton
+    {
+      background-color: rgb(14, 184, 155);
+      /* height:100%; */
+      /* padding:10% 10% 10% 10%; */
+      align-content: center;
+      border: none;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+        .heading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+    }
+    .smallheading
+    {
+        color: rgb(14, 184, 155);
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .leftcard
+    {
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+    .card{
+        width: 100%;
+    }
+    .text{
+        text-align: center;
+        
+        font-size: 15px;
+    }
+      .rightnav
+      {
+        padding-right:16%;
+      }
+      nav.navbar {  
+        width: 70%;
+      }
+      .icon
+      {
+          padding-left: 5%;
+      }
+      .cardbutton
+  {
+      padding-left: 10%;
+      padding-right: 0%;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:51%;
+    height:87%;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(14, 184, 155);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width:39%
+  } 
+  
 }
  
