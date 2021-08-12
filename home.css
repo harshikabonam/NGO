@@ -1,12 +1,9 @@
-.navbartext
-{
-    font-size: 16px;
-    font-weight: 500;
-}
-.body
+// body
+body
 {
     overflow-x: hidden;
 }
+// head
 .head{
 background-color: rgb(231, 231, 231)
 }
@@ -28,6 +25,7 @@ background-color: rgb(231, 231, 231)
     padding-top: 2%;
 }
 
+// our top fundraisers
 .heading
 {
     text-align: center;
@@ -99,6 +97,7 @@ background-color: rgb(231, 231, 231)
     }
     .whats
     {
+        // border:1px #17B069 solid;
         border:none;
         background-color: white;
         width: 100%;
@@ -106,6 +105,7 @@ background-color: rgb(231, 231, 231)
     }
     .face
     {
+        // border:1px #3B5998 solid;
         border:none;
         background-color: white;
         width: 100%;
@@ -137,64 +137,6 @@ background-color: rgb(231, 231, 231)
 	box-shadow:  3px 3px  rgba(2, 0, 0, 0.1);  
     border-radius: 5px; 
     border:1px solid rgb(100, 100, 100);
-    }
-
-    .footer
-{
-    background-color: rgb(31, 31, 31);
-    color: white;
-}
-.button{
-padding: 3% 5% 3% 5%;
-border-radius: 25px;
-border:none;
-background-color: #17B069;
-color: white;
-font-weight: 500;
-}
-.bold
-{
-    font-weight: 500;
-}
-.facebook {
-    background: #3B5998;
-    color: white;
-    }
-    
-    .twitter {
-    background: #55ACEE;
-    color: white;
-    }
-    
-    .whatsapp {
-    background:green;
-    color: white;
-    }
-    
-    .linkedin {
-    background: #007bb5;
-    color: white;
-    display: inline-block;
-  border-radius:50%;
-  box-shadow: 0px 0px 2px #888;
-  padding: 0.5em 0.6em;
-
-    }
-    
-    i.fa 
-    {
-        display: inline-block;
-        border-radius: 60px;
-        box-shadow: 0px 0px 2px #888;
-        padding: 0.5em 0.6em;
-        
-      }
-      i.facebook
-      {
-        padding: 0.5em 0.7em;
-      }
-      .dropdown-toggle::after {
-        display: none;
     }
 
     
