@@ -136,6 +136,69 @@ background-color: rgb(231, 231, 231)
     border-radius: 5px; 
     border:1px solid rgb(100, 100, 100);
     }
+.footer
+{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.button{
+padding: 3% 5% 3% 5%;
+border-radius: 25px;
+border:none;
+background-color: #17B069;
+color: white;
+font-weight: 500;
+}
+.bold
+{
+    font-weight: 500;
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+    }
+    
+    .twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    
+    .whatsapp {
+    background:green;
+    color: white;
+    }
+    
+    .linkedin {
+    background: #007bb5;
+    color: white;
+    display: inline-block;
+  border-radius:50%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+    }
+    
+    i.fa 
+    {
+        display: inline-block;
+        border-radius: 60px;
+        box-shadow: 0px 0px 2px #888;
+        padding: 0.5em 0.6em;
+        
+      }
+      i.facebook
+      {
+        padding: 0.5em 0.7em;
+      }
+      .dropdown-toggle::after {
+        display: none;
+    }
+
+    .navbartext
+{
+    font-size: 15px;
+    font-weight: 500;
+}
 
     @media only screen and  (min-device-width:1440px) and (max-device-width:1920px) 
     {
